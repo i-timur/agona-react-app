@@ -1,0 +1,80 @@
+.profile-component__title {
+    margin: 82px 0 0 0;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.374px;
+    color: #000000;
+    text-align: center;
+}
+.profile-component__content {
+
+}
+.profile-component__upload {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 14px;
+    background-color: rgba(242, 242, 242, 0.8);
+}
+.profile-component__upload-wrapper {
+    margin: 52px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-component__upload-icon {
+    margin: 25px 0 0 0;
+    width: 17px;
+    height: 21px;
+    background: url('../../assets/icons/upload.svg') top left no-repeat;
+}
+.profile-component__upload-link {
+    margin: 6px 0 0 0;
+    text-align: center;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: rgba(60, 60, 67, 0.3);
+    cursor: pointer;
+}
+.profile-component__info {
+    width: 375px;
+    margin: 0 auto;
+}
+.profile-component__input-wrapper {
+    position: relative;
+}
+.profile-component__input-wrapper:first-child {
+    margin: 57px 0 0 0;
+}
+.profile-component__input-wrapper:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 343px;
+    height: 1px;
+    opacity: 0.2;
+    background-color: #000000;
+}
+.profile-component__input-wrapper input {
+    width: 100%;
+    outline: none;
+    padding: 19px 16px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #3C3C43;
+}
+.profile-component__input-wrapper input::placeholder {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: rgba(60, 60, 67, 0.3);
+}

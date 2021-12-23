@@ -1,0 +1,175 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 17px 26px 15px 32px;
+    background: rgba(249, 249, 249, 0.94);
+}
+
+.collection {
+    position: relative;
+    display: flex;
+    width: 151px;
+    height: 38px;
+    border-radius: 21.5px;
+    background: inherit;
+}
+
+.collection_active {
+    background: #002DFF;
+}
+
+.collection-icon {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    background: url("../../assets/icons/clever-blue.svg") top left no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.collection-icon_active {
+    background: url("../../assets/icons/clever-white.svg") top left no-repeat;
+}
+
+.collection-link {
+    position: absolute;
+    top: 7px;
+    left: 44px ;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.336px;
+    color: #000000;
+}
+
+.collection-link_active {
+    color: #FFFFFF;
+}
+
+.add {
+    position: relative;
+    display: flex;
+    margin: 0 0 0 42px;
+    width: 142px;
+    height: 38px;
+    background: inherit;
+    border-radius: 21.5px;
+}
+
+.add_active {
+    background: #002DFF;
+}
+
+.add-icon {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 21px;
+    height: 21px;
+    background: url("../../assets/icons/add-blue.svg") top left no-repeat;
+}
+
+.add-icon_active {
+    background: url("../../assets/icons/add-white.svg") top left no-repeat;
+}
+
+.add-link {
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.336px;
+    color: #000000;
+}
+
+.add-link_active {
+    color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 47px;
+    height: 18px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    width: 115px;
+    height: 38px;
+    background: inherit;
+    border-radius: 21.5px;
+}
+
+.search_active {
+    background: #002DFF;
+}
+
+.search-icon {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    width: 21px;
+    height: 21px;
+    background: url("../../assets/icons/search-blue.svg") top left no-repeat;
+}
+
+.search-icon_active {
+    background: url("../../assets/icons/search-white.svg") top left no-repeat;
+
+}
+
+.search-link {
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.336px;
+    color: #000000;
+}
+
+.search-link_active {
+    color: #FFFFFF;
+}
+
+.avatar {
+    margin: 0 0 0 31px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+}
+
+.avatar-link {
+    cursor: pointer;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar_active {
+    border-color: #002DFF;
+}
+
+.left {
+    display: flex;
+    flex: 0 0 333px;
+}
+
+.right {
+    display: flex;
+    flex: 0 0 333px;
+    justify-content: flex-end;
+}
